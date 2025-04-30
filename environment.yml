@@ -5,6 +5,7 @@ channels:
   - conda-forge
 dependencies:
   - pip
+  - wget 
   - numpy
   - matplotlib
   - pandas
@@ -12,3 +13,6 @@ dependencies:
   - scipy
   - fitsio
   - jupyter
+  - pyephem
+  - notebook>=6.1.5
+  - nbformat >=5.0.2
