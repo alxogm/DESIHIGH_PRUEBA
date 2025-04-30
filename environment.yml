@@ -1,18 +1,15 @@
-# conda env create -f environment.yml
-name: desihigh_test
+name: example-environment
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python=3.11
-  - wget 
   - numpy
+  - psutil
+  - toolz
   - matplotlib
+  - dill
   - pandas
+  - partd
+  - bokeh
+  - dask
   - astropy
-  - scipy
-  - fitsio
-  - jupyter
-  - pyephem
-  - notebook>=6.1.5
-  - nbformat >=5.0.2
